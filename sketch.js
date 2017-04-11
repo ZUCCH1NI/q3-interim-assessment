@@ -47,14 +47,13 @@ function bouce(){
      if(y>400 || y<0){
         speedy = -speedy;
     }
-    
-    
+}
+
     function mousePressed(){
     j++;
     if(j==words.length){
         j=0;
         }
     }
-}
     
 
